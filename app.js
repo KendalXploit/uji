@@ -95,13 +95,13 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if(message.includes('time')) {
+    else if(message.includes('jam')) {
         const time = new Date().toLocaleString(undefined, {hour: "numeric", minute: "numeric"})
         const finalText = time;
         speech.text = finalText;
     }
 
-    else if(message.includes('date')) {
+    else if(message.includes('tanggal')) {
         const date = new Date().toLocaleString(undefined, {month: "short", day: "numeric"})
         const finalText = date;
         speech.text = finalText;
