@@ -15,11 +15,11 @@ function wishMe() {
     var hr = day.getHours();
 
     if(hr >= 0 && hr < 12) {
-        speak("Good Morning Boss");
+        speak("good morning boss");
     }
 
     else if(hr == 12) {
-        speak("Good noon Boss");
+        speak("Good noon boss");
     }
 
     else if(hr > 12 && hr <= 17) {
@@ -32,7 +32,7 @@ function wishMe() {
 }
 
 window.addEventListener('load', ()=>{
-    speak("Activating Inertia");
+    speak("Activating himico");
     speak("Going online");
     wishMe();
 })
@@ -67,7 +67,7 @@ function speakThis(message) {
     }
 
     else if(message.includes('name')) {
-        const finalText = "My name is Inertia";
+        const finalText = "My name is himico";
         speech.text = finalText;
     }
 
