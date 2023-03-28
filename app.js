@@ -71,6 +71,11 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
+else if(message.includes('ngewe yok')) {
+        const finalText = "gue bot anjing mana bisa di ewe";
+        speech.text = finalText;
+    }
+
     else if(message.includes('open google')) {
         window.open("https://google.com", "_blank");
         const finalText = "Opening Google";
