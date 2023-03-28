@@ -61,7 +61,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if(message.includes('ewe yuk')) {
+    else if(message.includes('how are you')) {
         const finalText = "I am fine boss tell me how can i help you";
         speech.text = finalText;
     }
@@ -71,11 +71,14 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-else if(message.includes('nganu')) {
-        const finalText = "gue bot anjing mana bisa di ewe";
+   else if(message.includes('nganu')) {
+        const finalText = "apa mau ngewe? gue bot anjing mana bisa di ewe";
         speech.text = finalText;
     }
-
+   else if(message.includes('sayang')) {
+        const finalText = "dalam yank ada apa?";
+        speech.text = finalText;
+    }
     else if(message.includes('open google')) {
         window.open("https://google.com", "_blank");
         const finalText = "Opening Google";
