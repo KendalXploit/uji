@@ -71,7 +71,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-else if(message.includes('yuk')) {
+else if(message.includes('nganu')) {
         const finalText = "gue bot anjing mana bisa di ewe";
         speech.text = finalText;
     }
